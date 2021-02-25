@@ -14,9 +14,9 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 import logging
 
 # Input parameters
-#onezoneUrl="https://onezone-acc-test.cnaf.infn.it"
-#sourceProvider="oneprovider-acc-test.cnaf.infn.it"
-#apiToken="MDAyYmxvY2F00aW9uIG9uZXpvbmUtYWNjLXRlc3QuY25hZi5pbmZuLml00CjAwNmJpZGVudGlmaWVyIDIvbm1kL3Vzci1hODBlOTk4ZjUwNTE00YWJmZTI3ZWExNWRkMTBkOGZkN2NoNTE00YS9hY3QvOWQzZDgxZTNhM2I5MTEzMzRmYjUyYjcyYTZkZjQzN2ZjaGRkNDAKMDAyZnNpZ25hdHVyZSD8g6yUb00qbfHed58azTrck4017fQOoFD300FPSYqaUVHSAo"
+#onezoneUrl="https://onezone"
+#sourceProvider="oneprovider"
+#apiToken="M...o"
 #logging.propagate=False
 
 logdir = "/var/log/changes-stream/"
