@@ -1,0 +1,13 @@
+[Unit]
+Description=Changes Stream Service
+After=onedatify.service
+Requires=onedatify.service
+
+[Service]
+
+ExecStart=/usr/bin/changes-stream.py
+ExecStop=/bin/kill -INT $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
